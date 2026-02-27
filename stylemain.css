@@ -462,10 +462,16 @@ margin-left:20px;
 
 .conteudo-semana {
     position: absolute;
-	top:40px;
-	left:60px;
+	top:700px;
+	left:500px;
     z-index: 2;
-    color: red;
+    color: black;
+}
+
+.conteudo-semana h1 {
+    font-size: 30px;
+    margin: 0px;
+    letter-spacing: 3px;
 }
 
 .card-fim-semana p {
@@ -5636,4 +5642,5 @@ margin-left:20px;
 body {
   margin: 0;
 }
+
 
