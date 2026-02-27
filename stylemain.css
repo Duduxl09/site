@@ -156,7 +156,7 @@ margin-left:20px;
 
 /* Logo */
 .logo {
-    width: 120px;
+    width: 100px;
     transition: 0.3s;
     cursor: pointer;
 }
@@ -692,10 +692,32 @@ margin-left:20px;
   object-fit: contain;
 }
 
+.botao-home-f1 {
+    position: absolute;
+    top: 40px;   /* distância do topo */
+    left: 20px;  /* distância da esquerda */
+    width: 60px; /* tamanho do botão */
+    height: auto;
+    opacity: 0;  /* invisível por padrão */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 3;  /* acima do banner e conteúdos */
+}
+
+/* Botão aparece quando passa o mouse no banner */
+.banner-regras:hover .botao-home-f1 {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
 
 	
  
 /*mclaren*/
+
+
+
+
 /* ===== BANNER ===== */
 .banner-mclaren {
     position: relative;
@@ -769,6 +791,31 @@ margin-left:20px;
     height: auto;
     transition: 0.3s ease;
 }
+/* Botão Home (logo da F1) */
+.botao-home-mclaren {
+    position: absolute;
+    top: 40px;   /* distância do topo */
+    left: 20px;  /* distância da esquerda */
+    width: 60px; /* tamanho do botão */
+    height: auto;
+    opacity: 0;  /* invisível por padrão */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 3;  /* acima do banner e conteúdos */
+}
+
+/* Botão aparece quando passa o mouse no banner */
+.banner-mclaren:hover .botao-home-mclaren {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
 
 /* TÍTULOS */
 .titulos-mclaren {
@@ -827,10 +874,6 @@ margin-left:20px;
     filter: brightness(1.05);
 }
 
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
 
 /* Seção principal */
 .info {
@@ -840,10 +883,7 @@ body {
     justify-content: center;
 }
 
-body{
-  margin:0;
-  font-family: Arial, sans-serif;
-}
+
 
 .mclaren-stats{
   min-height:100vh;
@@ -1347,6 +1387,29 @@ body{
 	margin-top:-145px;
 }
 
+.botao-home-mercedes {
+    position: absolute;
+    top: 40px;   /* distância do topo */
+    left: 20px;  /* distância da esquerda */
+    width: 60px; /* tamanho do botão */
+    height: auto;
+    opacity: 0;  /* invisível por padrão */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 3;  /* acima do banner e conteúdos */
+}
+
+/* Botão aparece quando passa o mouse no banner */
+.banner-mercedes:hover .botao-home-mercedes {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
 /* TÍTULOS */
 .titulos-mercedes {
     position: absolute;
@@ -1581,6 +1644,31 @@ body{
     transition: 0.3s ease;
 }
 
+
+.botao-home-redbull {
+    position: absolute;
+    top: 40px;   /* distância do topo */
+    left: 20px;  /* distância da esquerda */
+    width: 60px; /* tamanho do botão */
+    height: auto;
+    opacity: 0;  /* invisível por padrão */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 3;  /* acima do banner e conteúdos */
+}
+
+/* Botão aparece quando passa o mouse no banner */
+.banner-redbull:hover .botao-home-redbull {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
 /* TÍTULOS */
 .titulos-redbull {
     position: absolute;
@@ -1672,6 +1760,22 @@ body{
   
 /*ferrari*/
 
+.botao-home-ferrari {
+    position: absolute;
+    top: 40px;   /* distância do topo */
+    left: 20px;  /* distância da esquerda */
+    width: 60px; /* tamanho do botão */
+    height: auto;
+    opacity: 0;  /* invisível por padrão */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 3;  /* acima do banner e conteúdos */
+}
+
+/* Botão aparece quando passa o mouse no banner */
+.banner-ferrari:hover .botao-home-ferrari {
+    opacity: 1;
+    transform: scale(1.1);
+}
 
 /* Banner */
 .banner-ferrari {
@@ -1821,6 +1925,27 @@ body{
 
 
  /*willians*/
+ 
+ .botao-home-williams {
+    position: absolute;
+    top: 40px;   /* distância do topo */
+    left: 20px;  /* distância da esquerda */
+    width: 60px; /* tamanho do botão */
+    height: auto;
+    opacity: 0;  /* invisível por padrão */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 3;  /* acima do banner e conteúdos */
+}
+
+/* Botão aparece quando passa o mouse no banner */
+.banner-williams:hover .botao-home-williams {
+    opacity: 1;
+    transform: scale(1.1);
+}
+ 
+ 
+ 
+ 
 /* ===== BANNER ===== */
 .banner-williams {
     position: relative;
@@ -2002,6 +2127,28 @@ body{
     transition: transform 0.6s ease;
 }
 
+
+.botao-home-rb {
+    position: absolute;
+    top: 40px;   /* distância do topo */
+    left: 20px;  /* distância da esquerda */
+    width: 60px; /* tamanho do botão */
+    height: auto;
+    opacity: 0;  /* invisível por padrão */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 3;  /* acima do banner e conteúdos */
+}
+
+/* Botão aparece quando passa o mouse no banner */
+.banner-rb:hover .botao-home-rb {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+
+
+
 /* OVERLAY ESCURO AZULADO */
 .banner-rb::after {
     content: "";
@@ -2150,6 +2297,29 @@ body{
 
 
  /*aston*/
+ 
+ 
+ .botao-home-aston {
+    position: absolute;
+    top: 40px;   /* distância do topo */
+    left: 20px;  /* distância da esquerda */
+    width: 60px; /* tamanho do botão */
+    height: auto;
+    opacity: 0;  /* invisível por padrão */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 3;  /* acima do banner e conteúdos */
+}
+
+/* Botão aparece quando passa o mouse no banner */
+.banner-aston:hover .botao-home-aston {
+    opacity: 1;
+    transform: scale(1.1);
+}
+ 
+ 
+ 
+ 
+ 
 /* ===== BANNER ===== */
 .banner-aston {
     position: relative;
@@ -2325,6 +2495,27 @@ body{
     transition: transform 0.6s ease;
 }
 
+.botao-home-haas {
+    position: absolute;
+    top: 40px;   /* distância do topo */
+    left: 20px;  /* distância da esquerda */
+    width: 60px; /* tamanho do botão */
+    height: auto;
+    opacity: 0;  /* invisível por padrão */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 3;  /* acima do banner e conteúdos */
+}
+
+/* Botão aparece quando passa o mouse no banner */
+.banner-haas:hover .botao-home-haas {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+
+
+
 /* OVERLAY VERMELHO/ESCURO */
 .banner-haas::after {
     content: "";
@@ -2467,6 +2658,27 @@ body{
     height: 70vh;
     overflow: hidden;
 }
+
+.botao-home-audi {
+    position: absolute;
+    top: 40px;   /* distância do topo */
+    left: 20px;  /* distância da esquerda */
+    width: 60px; /* tamanho do botão */
+    height: auto;
+    opacity: 0;  /* invisível por padrão */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 3;  /* acima do banner e conteúdos */
+}
+
+/* Botão aparece quando passa o mouse no banner */
+.banner-audi:hover .botao-home-audi {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+
+
 
 /* IMAGEM FUNDO */
 .bg-audi {
@@ -2621,6 +2833,25 @@ body{
 
  /*alpine*/
 
+.botao-home-alpine {
+    position: absolute;
+    top: 40px;   /* distância do topo */
+    left: 20px;  /* distância da esquerda */
+    width: 60px; /* tamanho do botão */
+    height: auto;
+    opacity: 0;  /* invisível por padrão */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 3;  /* acima do banner e conteúdos */
+}
+
+/* Botão aparece quando passa o mouse no banner */
+.banner-alpine:hover .botao-home-alpine {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+
 
 .banner-alpine {
     position: relative;
@@ -2763,6 +2994,27 @@ body{
 
 
 /*cadillac*/
+
+.botao-home-cadillac {
+    position: absolute;
+    top: 40px;   /* distância do topo */
+    left: 20px;  /* distância da esquerda */
+    width: 60px; /* tamanho do botão */
+    height: auto;
+    opacity: 0;  /* invisível por padrão */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 3;  /* acima do banner e conteúdos */
+}
+
+/* Botão aparece quando passa o mouse no banner */
+.banner-cadillac:hover .botao-home-cadillac {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+
+
 .banner-cadillac {
     position: relative;
     width: 100%;
