@@ -5622,12 +5622,12 @@ margin-left:20px;
 
   .logo-mclaren {
     width: 140px;
-    top: 20px;
+    top: 40px;
     right: 20px;
   }
 
   .titulos-mclaren {
-    font-size: 14px;
+    font-size: 34px;
     bottom: 20px;
     left: 20px;
   }
@@ -5650,7 +5650,7 @@ margin-left:20px;
 @media (max-width: 768px) {
 
   .banner-mclaren {
-    height: 55vh; /* menor no celular */
+    height: 35vh; /* menor no celular */
   }
 
 }
@@ -5669,12 +5669,13 @@ margin-left:20px;
 	@media (max-width: 768px) {
 
   .titulos-mclaren {
-    font-size: 13px;
+    font-size: 43px;
     bottom: 20px;
     left: 20px;
   }
 
 }
+
 
 
 
