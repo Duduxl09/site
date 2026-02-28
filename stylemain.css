@@ -2270,7 +2270,7 @@ margin-left:20px;
 .redes-banner-rb {
   position: absolute;
   bottom: -25px;
-  right: -1150px;
+  right: -1280px;
   display: flex;
   gap: 20px;
   z-index:3;
@@ -5642,6 +5642,7 @@ margin-left:20px;
 body {
   margin: 0;
 }
+
 
 
 
