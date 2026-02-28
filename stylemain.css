@@ -7,6 +7,12 @@ Body {
 	padding: 0px;
 }
 
+
+img {
+	max-width:100%;
+	height:auto;
+}
+
 p{
 	color: red;
 	font-size: 60px;
@@ -5602,46 +5608,73 @@ margin-left:20px;
 
 
 
+@media (max-width: 768px) {
 
+  .banner-mclaren {
+    height: 45vh;
+  }
 
+  .conteudo-mclaren h1 {
+    font-size: 28px;
+    left: 20px;
+    top: 20px;
+  }
 
+  .logo-mclaren {
+    width: 140px;
+    top: 20px;
+    right: 20px;
+  }
 
+  .titulos-mclaren {
+    font-size: 14px;
+    bottom: 20px;
+    left: 20px;
+  }
 
+  .grid-pilotos-mclaren {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-body {
-  margin: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
