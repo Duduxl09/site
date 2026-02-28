@@ -27,7 +27,7 @@ const eras = [
       { ano: "1988", imagem: "mcleras/senna.jpg",
 	  descricao: "O inicio do Reinado" },
       { ano: "1989", imagem: "mcleras/prost.jpg",
-	  descricao: "Deu prost,Titulo a contraersia" },
+	  descricao: "Deu prost,Titulo a contraversia" },
       { ano: "1990", imagem: "mcleras/1990.jpg", 
 	  descricao: "Senna da o troco" },
       { ano: "1991", imagem: "mcleras/1991.jpg",
@@ -127,3 +127,4 @@ function mostrarEra(index) {
 // Mostra a primeira era automaticamente ao carregar
 
 mostrarEra(0);
+
