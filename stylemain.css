@@ -5647,9 +5647,34 @@ margin-left:20px;
 
 }
 
+@media (max-width: 768px) {
+
+  .banner-mclaren {
+    height: 55vh; /* menor no celular */
+  }
+
+}
 
 
+@media (max-width: 768px) {
 
+  .conteudo-mclaren h1 {
+    font-size: 26px;
+    top: 20px;
+    left: 20px;
+  }
+
+}
+
+	@media (max-width: 768px) {
+
+  .titulos-mclaren {
+    font-size: 13px;
+    bottom: 20px;
+    left: 20px;
+  }
+
+}
 
 
 
