@@ -5638,7 +5638,15 @@ margin-left:20px;
     margin-top: 60px;
   }
 
+@media (max-width: 768px) {
+
+  .grid-equipes {
+    flex-direction: column;
+    align-items: center;
+  }
+
 }
+
 
 
 
