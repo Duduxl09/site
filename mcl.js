@@ -28,7 +28,7 @@ const eras = [
 	  descricao: "O inicio do Reinado" },
       { ano: "1989", imagem: "mcleras/prost.jpg",
 	  descricao: "Deu prost,Titulo a contraersia" },
-      { ano: "1990", imagem: "mcleras/mcleras/1990.jpg", 
+      { ano: "1990", imagem: "mcleras/1990.jpg", 
 	  descricao: "Senna da o troco" },
       { ano: "1991", imagem: "mcleras/1991.jpg",
 	  descricao: "Dominancia e Constacia" }
@@ -125,4 +125,5 @@ function mostrarEra(index) {
 }
 
 // Mostra a primeira era automaticamente ao carregar
+
 mostrarEra(0);
