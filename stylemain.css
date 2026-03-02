@@ -5611,7 +5611,7 @@ margin-left:20px;
 @media (max-width: 768px) {
 
   .banner-mclaren {
-    height: 70vh; /* menor no celular */
+    height: 100vh; /* menor no celular */
   }
 
   .bg-mclaren {
@@ -5619,6 +5619,7 @@ margin-left:20px;
   }
 
 }
+
 
 
 
