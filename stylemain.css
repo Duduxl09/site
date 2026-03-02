@@ -5608,6 +5608,17 @@ margin-left:20px;
 
 
 
+@media (max-width: 768px) {
+
+  .banner-mclaren {
+    height: 55vh; /* menor no celular */
+  }
+
+  .bg-mclaren {
+    object-fit: cover;
+  }
+
+}
 
 
 
