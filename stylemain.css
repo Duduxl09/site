@@ -744,7 +744,7 @@ margin-left:20px;
   .conteudo-mclaren h1 {
     font-size: 28px;
     left: 20px;
-    top: 20px;
+    top: 40px;
   }
 
   .logo-mclaren {
@@ -754,7 +754,7 @@ margin-left:20px;
   }
 
   .titulos-mclaren {
-    font-size: 14px;
+    font-size: 54px;
     bottom: 20px;
     left: 20px;
   }
@@ -5648,6 +5648,7 @@ background-color:#ff8000
   }
 
 }
+
 
 
 
