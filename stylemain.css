@@ -738,7 +738,7 @@ margin-left:20px;
 @media (max-width: 768px) {
 
   .banner-mclaren {
-    height: 60vh;
+    height: 70vh;
   }
 
   .conteudo-mclaren h1 {
@@ -754,7 +754,7 @@ margin-left:20px;
   }
 
   .titulos-mclaren {
-    font-size: 54px;
+    font-size: w4px;
     bottom: 20px;
     left: 20px;
   }
@@ -5637,6 +5637,7 @@ body.mclaren {
 background-color:#ff8000
 
 }
+
 
 
 
