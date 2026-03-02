@@ -3,7 +3,7 @@ Body {
 
 	
 	font-family: arial, helvetica, sans-serif;
-	margin: 30px;
+	margin: 0;
 	padding: 0px;
 }
 
@@ -5603,19 +5603,8 @@ margin-left:20px;
 
 
 
-@media (max-width: 768px) {
 
-  .banner-mclaren {
-    height: auto;        /* remove altura fixa no celular */
-    min-height: 300px;   /* mantém um tamanho mínimo bonito */
-  }
 
-  .bg-mclaren {
-    height: auto;
-    object-fit: cover;
-  }
-
-}
 
 
 
