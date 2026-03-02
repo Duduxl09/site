@@ -735,7 +735,31 @@ margin-left:20px;
  
 /*mclaren*/
 
+@media (max-width: 768px) {
 
+  .banner-mclaren {
+    height: 60vh;
+  }
+
+  .conteudo-mclaren h1 {
+    font-size: 28px;
+    left: 20px;
+    top: 20px;
+  }
+
+  .logo-mclaren {
+    width: 140px;
+    right: 20px;
+    top: 20px;
+  }
+
+  .titulos-mclaren {
+    font-size: 14px;
+    bottom: 20px;
+    left: 20px;
+  }
+
+}
 
 
 /* ===== BANNER ===== */
@@ -5624,6 +5648,7 @@ background-color:#ff8000
   }
 
 }
+
 
 
 
