@@ -5,7 +5,6 @@ Body {
 	font-family: arial, helvetica, sans-serif;
 	margin: 0;
 	padding: 0px;
-	background-color:blue;
 }
 
 
@@ -5634,11 +5633,9 @@ margin-left:20px;
 
 
 
+body.mclaren {
+background-color:#ff8000
 
-@media (max-width: 768px) {
-  body {
-    background-color: red;
-  }
 }
 
 
