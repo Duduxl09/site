@@ -5,6 +5,7 @@ Body {
 	font-family: arial, helvetica, sans-serif;
 	margin: 0;
 	padding: 0px;
+	background-color:blue;
 }
 
 
@@ -5642,6 +5643,7 @@ background-color:#ff8000
     background-color: red;
   }
 }
+
 
 
 
