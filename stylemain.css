@@ -5638,16 +5638,11 @@ background-color:#ff8000
 
 
 @media (max-width: 768px) {
-
-  .banner-mclaren {
-    height: 100vh; /* menor no celular */
+  body {
+    background-color: red;
   }
-
-  .bg-mclaren {
-    object-fit: cover;
-  }
-
 }
+
 
 
 
