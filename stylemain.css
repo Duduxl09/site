@@ -781,7 +781,7 @@ margin-left:20px;
 /* NOME */
 .conteudo-mclaren h1 {
     position: absolute;
-    top: 40px;
+    top:10px;
     left: 40px,
   font-size: clamp(28px, 7vw, 70px);
 line-height: 1.1;
@@ -806,7 +806,7 @@ line-height: 1.1;
 /* LOGO */
 .logo-mclaren {
     position: absolute;
-    top: -40px;
+    top: 40px;
     right: 40px;
 
   width: clamp(100px, 20vw, 200px);
@@ -833,20 +833,11 @@ line-height: 1.1;
 }
 
 
-
-
-
-
-
-
-
-
-
 /* TÍTULOS */
 .titulos-mclaren {
     position: absolute;
     bottom: 40px;
-    left: 40px;
+    left: 20px;
   font-size: clamp(14px, 4vw, 24px);
 
     display: grid;
@@ -5617,6 +5608,7 @@ body.mclaren {
 background-color:#ff8000
 
 }
+
 
 
 
