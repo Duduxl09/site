@@ -775,7 +775,9 @@ margin-left:20px;
 .conteudo-mclaren {
     position: absolute;
     inset: 0;
-    z-index: 2;
+    z-index: 10;
+	top:12%;
+	left:5%;
 }
 
 /* NOME */
@@ -809,8 +811,8 @@ line-height: 1.1;
     top: 40px;
     right: 40px;
 
-  width: clamp(100px, 20vw, 200px);
-
+  width: clamp(100px, 10vw, 200px);
+max-widht: 90%;
     height: auto;
     transition: 0.3s ease;
 }
@@ -823,7 +825,7 @@ line-height: 1.1;
     height: auto;
     opacity: 0;  /* invisível por padrão */
     transition: opacity 0.3s ease, transform 0.3s ease;
-    z-index: 3;  /* acima do banner e conteúdos */
+    z-index: 1000;  /* acima do banner e conteúdos */
 }
 
 /* Botão aparece quando passa o mouse no banner */
@@ -1309,10 +1311,11 @@ line-height: 1.1;
 
 .redes-banner-mclaren {
   position: absolute;
-  bottom: -10px;
-  right: -1150px;
+  bottom: 5%;
+  right: 5%;
   display: flex;
   gap: 10px;
+	z-index:20;
 }
 
 .redes-banner-mclaren img {
@@ -5608,6 +5611,7 @@ body.mclaren {
 background-color:#ff8000
 
 }
+
 
 
 
