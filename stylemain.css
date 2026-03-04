@@ -818,9 +818,9 @@ margin-left:20px;
 .conteudo-mclaren h1 {
     position: absolute;
     top: 40px;
-    left: 40px;
-    margin-top:-45px;
-    font-size: 55px;
+    left: 40px,
+  font-size: clamp(26px, 6vw, 60px);
+
     font-weight: bold;
     letter-spacing: 3px;
     color: #FF8700;
@@ -5649,6 +5649,7 @@ body.mclaren {
 background-color:#ff8000
 
 }
+
 
 
 
