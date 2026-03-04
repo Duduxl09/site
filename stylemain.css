@@ -783,12 +783,13 @@ margin-left:20px;
     position: absolute;
     top: 40px;
     left: 40px,
-  font-size: clamp(26px, 6vw, 60px);
-
+  font-size: clamp(28px, 7vw, 70px);
+line-height: 1.1;
     font-weight: bold;
     letter-spacing: 3px;
     color: #FF8700;
     transition: 0.4s ease;
+	max-widht: 90%;
 }
 
 /* LINHA ANIMADA */
@@ -846,7 +847,7 @@ margin-left:20px;
     position: absolute;
     bottom: 40px;
     left: 40px;
-  font-size: clamp(16px, 3.5vw, 24px);
+  font-size: clamp(14px, 4vw, 24px);
 
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -5616,6 +5617,7 @@ body.mclaren {
 background-color:#ff8000
 
 }
+
 
 
 
