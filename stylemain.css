@@ -5602,83 +5602,82 @@ background-color:#ff8000
 
 }
 
+  
 @media (max-width:768px){
 
-/* banner ocupa toda largura */
+/* BANNER */
 .banner-mclaren{
+  position:relative;
   width:100%;
   height:auto;
-  position:relative;
 }
 
-/* carro inteiro */
+/* IMAGEM DO CARRO */
 .bg-mclaren{
   width:100%;
   height:auto;
   object-fit:contain;
 }
 
-/* nome da equipe */
+/* NOME */
 .conteudo-mclaren h1{
   position:absolute;
-  top:55px;
+  top:10px;
   left:15px;
   font-size:22px;
   white-space:nowrap;
 }
 
-/* linha do nome */
-.conteudo-mclaren h1::after{
-  margin-top:4px;
-}
-
-/* logo ao lado do nome */
+/* LOGO ABAIXO DO NOME */
 .logo-mclaren{
   position:absolute;
-  top:15px;
-  right:15px;
-  widht:90px;
+  top:45px;
+  left:15px;
+  width:80px;
   height:auto;
 }
 
-/* botão home abaixo da linha */
+/* LINHA HOVER */
+.banner-mclaren:hover h1::after{
+  top:35px;
+  left:15px;
+  width:180px;
+}
+
+/* BOTÃO HOME */
 .botao-home{
   position:absolute;
-  top:60px;
+  top:70px;
   left:15px;
 }
 
-/* títulos no canto direito inferior */
+/* TÍTULOS */
 .titulos-mclaren{
   position:absolute;
   bottom:15px;
-  right:15px;
+  right:10px;
+
   display:grid;
-  grid-template-coluumns:auto auuto;
-  row-gap: 0px;
-  column-gap:3px;
-  font-size: 13px;
+  grid-template-columns:1fr 1fr;
+
+  font-size:14px;
+  gap:2px 8px;
 }
 
-.titulos-mclaren div{
-	margin:0;
-	padding:0;
-	line-height:1;
-}
-
-/* redes sociais */
+/* REDES */
 .redes-banner-mclaren{
   position:absolute;
   bottom:15px;
-  left:15px;
+  left:10px;
+
   display:flex;
-  gap:6px;
+  gap:8px;
 }
 
-/* tamanho dos ícones */
+/* TAMANHO DOS ICONS */
 .redes-banner-mclaren img{
-  width:12px;
-	height: auto;
+  width:28px;
+  height:28px;
 }
 
 }
