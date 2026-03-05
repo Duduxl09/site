@@ -741,7 +741,7 @@ margin-left:20px;
 /* ===== BANNER ===== */
 .banner-mclaren {
     position: relative;
-    width: 100%;
+    width: 90%;
     height: 90vh;
     overflow: hidden;
 }
@@ -750,7 +750,7 @@ margin-left:20px;
 .bg-mclaren {
     position: absolute;
     inset: 0;
-    width: 100%;
+    width: 90%;
     height: 90%;
     object-fit: cover;
     object-position: center;
@@ -811,7 +811,7 @@ line-height: 1.1;
     top: 0px;
     right: 40px;
 
-  width: clamp(400px, 10vw, 200px);
+  width: clamp(200px, 10vw, 200px);
 max-widht: 90%;
     height: auto;
     transition: 0.3s ease;
@@ -819,7 +819,7 @@ max-widht: 90%;
 /* Botão Home (logo da F1) */
 .botao-home-mclaren {
     position: absolute;
-    top: 40px;   /* distância do topo */
+    top: 60px;   /* distância do topo */
     left: 20px;  /* distância da esquerda */
     width: 60px; /* tamanho do botão */
     height: auto;
@@ -1312,7 +1312,7 @@ max-widht: 90%;
 .redes-banner-mclaren {
   position: absolute;
   bottom: 5%;
-  right: 55%;
+  right: -80%;
   display: flex;
   gap: 10px;
 	z-index:20;
@@ -5611,6 +5611,7 @@ body.mclaren {
 background-color:#ff8000
 
 }
+
 
 
 
