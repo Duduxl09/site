@@ -5641,7 +5641,7 @@ background-color:#ff8000
 .banner-mclaren:hover h1::after{
   top:35px;
   left:15px;
-  width:180px;
+  width:90%;
 }
 
 /* BOTÃO HOME */
@@ -5682,6 +5682,7 @@ background-color:#ff8000
 }
 
 }
+
 
 
 
