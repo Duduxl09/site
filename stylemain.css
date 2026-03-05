@@ -5613,7 +5613,7 @@ background-color:#ff8000
 }
 
 /* imagem do carro inteira */
-.banner-mclaren img{
+.bg-mclaren{
   width: 100%;
   height: auto;
   object-fit: contain;
@@ -5674,6 +5674,7 @@ background-color:#ff8000
 }
 
 }
+
 
 
 
