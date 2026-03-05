@@ -5668,8 +5668,8 @@ background-color:#ff8000
 /* REDES */
 .redes-banner-mclaren{
   position:absolute;
-  bottom:15px;
-  right:100px;
+  bottom:70px;
+  right:10px;
 
   display:flex;
   gap:8px;
@@ -5682,6 +5682,7 @@ background-color:#ff8000
 }
 
 }
+
 
 
 
