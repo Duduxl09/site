@@ -5637,8 +5637,8 @@ background-color:#ff8000
   position:absolute;
   top:15px;
   right:15px;
-  widht:80px;
-  height:auto;
+  widht:20px;
+  height:10px;
 }
 
 /* botão home abaixo da linha */
@@ -5652,7 +5652,7 @@ background-color:#ff8000
 .titulos-mclaren{
   position:absolute;
   bottom:15px;
-  right:0px;
+  right:10px;
   display:grid;
   grid-template-columns: repeat (2, auto);
   gap: 2px 0px;
@@ -5674,6 +5674,7 @@ background-color:#ff8000
 }
 
 }
+
 
 
 
