@@ -750,7 +750,7 @@ margin-left:20px;
 .bg-mclaren {
     position: absolute;
     inset: 0;
-    width: 100%;
+    width: 90%;
     height: 100%;
     object-fit: cover;
     object-position: center;
@@ -776,14 +776,14 @@ margin-left:20px;
     position: absolute;
     inset: 0;
     z-index: 10;
-	top:12%;
+	top:32%;
 	left:5%;
 }
 
 /* NOME */
 .conteudo-mclaren h1 {
     position: absolute;
-    top:10px;
+    top:32px;
     left: 40px,
   font-size: clamp(28px, 7vw, 70px);
 line-height: 1.1;
@@ -808,7 +808,7 @@ line-height: 1.1;
 /* LOGO */
 .logo-mclaren {
     position: absolute;
-    top: 40px;
+    top: 200px;
     right: 40px;
 
   width: clamp(100px, 10vw, 200px);
@@ -1312,7 +1312,7 @@ max-widht: 90%;
 .redes-banner-mclaren {
   position: absolute;
   bottom: 5%;
-  right: 5%;
+  right: 55%;
   display: flex;
   gap: 10px;
 	z-index:20;
@@ -5611,6 +5611,7 @@ body.mclaren {
 background-color:#ff8000
 
 }
+
 
 
 
