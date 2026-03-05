@@ -5637,8 +5637,8 @@ background-color:#ff8000
   position:absolute;
   top:15px;
   right:15px;
-  widht:20px;
-  height: auto;
+  widht:90px;
+  height:auto;
 }
 
 /* botão home abaixo da linha */
@@ -5652,17 +5652,25 @@ background-color:#ff8000
 .titulos-mclaren{
   position:absolute;
   bottom:15px;
-  right:10px;
+  right:15px;
   display:grid;
-  gap: 2px 0px;
-  font-size: 10px;
+  grid-template-coluumns:auto auuto;
+  row-gap: 0px;
+  column-gap:3px;
+  font-size: 13px;
+}
+
+.titulos-mclaren div{
+	margin:0;
+	padding:0;
+	line-height:1;
 }
 
 /* redes sociais */
 .redes-banner-mclaren{
   position:absolute;
   bottom:15px;
-  left:0px;
+  left:15px;
   display:flex;
   gap:6px;
 }
@@ -5670,9 +5678,11 @@ background-color:#ff8000
 /* tamanho dos ícones */
 .redes-banner-mclaren img{
   width:12px;
+	height: auto;
 }
 
 }
+
 
 
 
