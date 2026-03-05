@@ -5624,8 +5624,9 @@ background-color:#ff8000
   position: absolute;
   top: 15px;
   left: 15px;
-  font-size: 26px;
+  font-size: 22px;
   white-space: nowrap;
+	z-index: 5;
 }
 
 /* logo ao lado do nome */
@@ -5638,10 +5639,8 @@ background-color:#ff8000
 
 /* linha abaixo do nome*/
   .banner-mclaren:hover h1::after{
-  position: absolute;
-  top: 55px;
-  left: 15px;
-  width: 200px;
+  top: 40px;
+  left: 0;
 }
 
 /* botão home abaixo da linha */
@@ -5656,25 +5655,28 @@ background-color:#ff8000
   position: absolute;
   bottom: 10px;
   right: 15px;
-  font-size: 18px;
-	gap: 3px 10px;
+  font-size: 14px;
+	display: grid;
+	grid-templante-columns: 1fr;
+	gap: 4px;
 }
 
 /* redes no canto esquerdo inferior */
 .redes-banner-mclaren{
   position: absolute;
-  bottom: 20px;
-  left: 55px;
+  bottom: 15px;
+  left: 15px;
   display: flex;
-  gap: 10px;
+  gap: 8px;
 }
 
 /* tamanho dos ícones */
 .redes-banner-mclaren img{
- background:12px;
+ widht:12px;
 }
 
 }
+
 
 
 
