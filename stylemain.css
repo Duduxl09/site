@@ -5641,13 +5641,13 @@ background-color:#ff8000
 .banner-mclaren:hover h1::after{
   top:35px;
   left:15px;
-  width:90%;
+  width:100%;
 }
 
 /* BOTÃO HOME */
 .botao-home{
   position:absolute;
-  top:70px;
+  top:60px;
   left:15px;
 }
 
@@ -5667,21 +5667,22 @@ background-color:#ff8000
 
 /* REDES */
 .redes-banner-mclaren{
-  position:absolute;
-  bottom:70px;
-  right:10px;
-
+  position:absolute !important;
+  bottom:70px !important;
+  right:10px !important;
+  left: auto !important; 
   display:flex;
   gap:8px;
 }
 
 /* TAMANHO DOS ICONS */
 .redes-banner-mclaren img{
-  width:18px;
+  width:18px !important;
   height:18px;
 }
 
 }
+
 
 
 
