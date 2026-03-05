@@ -5602,94 +5602,83 @@ background-color:#ff8000
 
 }
 
-@media (max-width: 768px) {
+@media (max-width:768px){
 
-/* banner ocupa toda tela */
+/* banner ocupa toda largura */
 .banner-mclaren{
-  height: auto;
-  width: 100%;
-  position: relative;
+  width:100%;
+  height:auto;
+  position:relative;
 }
 
-/* imagem do carro inteira */
+/* carro inteiro */
 .bg-mclaren{
-  width: 100%;
-  height: auto;
-  object-fit: contain;
+  width:100%;
+  height:auto;
+  object-fit:contain;
 }
 
 /* nome da equipe */
 .conteudo-mclaren h1{
-  position: absolute;
-  top:30px;
-  left: 15px;
-  font-size: 22px;
-  white-space: nowrap;
-	z-index: 5;
+  position:absolute;
+  top:15px;
+  left:15px;
+  font-size:22px;
+  white-space:nowrap;
+  z-index:5;
+}
+
+/* linha do nome */
+.conteudo-mclaren h1::after{
+  margin-top:4px;
 }
 
 /* logo ao lado do nome */
 .logo-mclaren{
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  width: 120px;
-}
-
-/* linha abaixo do nome*/
-  .banner-mclaren:hover h1::after{
-  top: 40px;
-  left: 0;
+  position:absolute;
+  top:15px;
+  right:15px;
+  width:110px;
+  height:auto;
 }
 
 /* botão home abaixo da linha */
 .botao-home{
-  position: absolute;
-  top: 75px;
-  left: 15px;
+  position:absolute;
+  top:60px;
+  left:15px;
 }
 
 /* títulos no canto direito inferior */
 .titulos-mclaren{
-  position: absolute;
-  bottom: 15px;
-  right: 15px;
-  font-size: 13px;
-	display: grid;
-	grid-templante-columns: auto auto;
-	gap: 2px 8px;
-	line-height: 1.2;
+  position:absolute;
+  bottom:15px;
+  right:15px;
+
+  display:grid;
+  grid-template-columns:auto auto;
+
+  gap:3px 8px;
+  font-size:13px;
 }
 
-/* redes no canto esquerdo inferior */
+/* redes sociais */
 .redes-banner-mclaren{
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  display: flex;
-  gap: 2px;
+  position:absolute;
+  bottom:15px;
+  left:15px;
+
+  display:flex;
+  gap:6px;
 }
 
 /* tamanho dos ícones */
 .redes-banner-mclaren img{
- widht:20px;
-	height:20px
+  width:20px;
+  height:20px;
 }
 
-
-.redes-banner-mclaren a:hover {
-  background: #ff8000;
-  transform: scale(1.15);
 }
-	
-
-}
-
-
-
-
-
-
 
 
 
