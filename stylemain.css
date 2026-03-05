@@ -5622,7 +5622,7 @@ background-color:#ff8000
 /* nome da equipe */
 .conteudo-mclaren h1{
   position: absolute;
-  top: 15px;
+  top:30px;
   left: 15px;
   font-size: 22px;
   white-space: nowrap;
@@ -5659,14 +5659,14 @@ background-color:#ff8000
 	display: grid;
 	grid-templante-columns: auto auto;
 	gap: 2px 8px;
-	line-height: 1.2;
+	line-height: 1.0;
 }
 
 /* redes no canto esquerdo inferior */
 .redes-banner-mclaren{
   position: absolute;
   bottom: 15px;
-  left: 15px;
+  left: 35px;
   display: flex;
   gap: 6px;
 }
@@ -5678,6 +5678,7 @@ background-color:#ff8000
 }
 
 }
+
 
 
 
