@@ -5659,16 +5659,16 @@ background-color:#ff8000
 	display: grid;
 	grid-templante-columns: auto auto;
 	gap: 2px 8px;
-	line-height: 1.0;
+	line-height: 1.2;
 }
 
 /* redes no canto esquerdo inferior */
 .redes-banner-mclaren{
   position: absolute;
   bottom: 15px;
-  left: 35px;
+  left: 15px;
   display: flex;
-  gap: 6px;
+  gap: 2px;
 }
 
 /* tamanho dos ícones */
@@ -5678,6 +5678,7 @@ background-color:#ff8000
 }
 
 }
+
 
 
 
