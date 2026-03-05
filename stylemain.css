@@ -5621,16 +5621,15 @@ background-color:#ff8000
 /* nome da equipe */
 .conteudo-mclaren h1{
   position:absolute;
-  top:15px;
+  top:55px;
   left:15px;
   font-size:22px;
   white-space:nowrap;
-  z-index:5;
 }
 
 /* linha do nome */
 .conteudo-mclaren h1::after{
-  margin-top:34px;
+  margin-top:4px;
 }
 
 /* logo ao lado do nome */
@@ -5638,7 +5637,7 @@ background-color:#ff8000
   position:absolute;
   top:15px;
   right:15px;
-  widht:100px;
+  widht:150px;
   height:auto;
 }
 
@@ -5655,9 +5654,8 @@ background-color:#ff8000
   bottom:15px;
   right:0px;
   display:grid;
-  grid-template-columns: reeat(2, auto;
-  row-gap: 2px;
-  column-gap:0;
+  grid-template-columns: repeat (2, auto);
+  gap: 2px 0px;
   font-size: 10px;
 }
 
@@ -5672,10 +5670,11 @@ background-color:#ff8000
 
 /* tamanho dos ícones */
 .redes-banner-mclaren img{
-  width:20px;
+  width:12px;
 }
 
 }
+
 
 
 
