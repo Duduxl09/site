@@ -5636,8 +5636,8 @@ background-color:#ff8000
   width: 120px;
 }
 
-/* linha abaixo do nome */
-.linha-mclaren{
+/* linha abaixo do nome*/
+  .banner-mclaren:hover h1::after{
   position: absolute;
   top: 55px;
   left: 15px;
@@ -5674,6 +5674,7 @@ background-color:#ff8000
 }
 
 }
+
 
 
 
