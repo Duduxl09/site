@@ -5654,16 +5654,17 @@ background-color:#ff8000
 /* títulos no canto direito inferior */
 .titulos-mclaren{
   position: absolute;
-  bottom: 20px;
+  bottom: 10px;
   right: 15px;
   font-size: 18px;
+	gap: 10px;
 }
 
 /* redes no canto esquerdo inferior */
 .redes-banner-mclaren{
   position: absolute;
   bottom: 20px;
-  left: 15px;
+  left: 55px;
   display: flex;
   gap: 10px;
 }
@@ -5674,6 +5675,7 @@ background-color:#ff8000
 }
 
 }
+
 
 
 
