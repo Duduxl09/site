@@ -5632,7 +5632,7 @@ background-color:#ff8000
 .logo-mclaren{
   position:absolute;
   top:40px;
-  left:15px;
+  right:15px;
   width:70px;
   height:auto;
 }
@@ -5655,7 +5655,7 @@ background-color:#ff8000
 .titulos-mclaren{
   position:absolute;
   bottom:20px;
-  right:10px;
+  left:10px;
 
   display:grid;
   grid-template-columns: auto auuto;
@@ -5669,20 +5669,20 @@ background-color:#ff8000
 .redes-banner-mclaren{
   position:absolute;
   bottom:15px;
-  left:10px;
+  right:10px;
 
   display:flex;
   gap:8px;
-   text-align: right;
 }
 
 /* TAMANHO DOS ICONS */
 .redes-banner-mclaren img{
-  width:26px;
-  height:26px;
+  width:18px;
+  height:18px;
 }
 
 }
+
 
 
 
