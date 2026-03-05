@@ -5662,7 +5662,7 @@ background-color:#ff8000
 
   font-size:14px;
   gap:2px 6px;
-	text-align:right;
+	text-align:left;
 }
 
 /* REDES */
@@ -5673,6 +5673,7 @@ background-color:#ff8000
 
   display:flex;
   gap:8px;
+   text-align: right;
 }
 
 /* TAMANHO DOS ICONS */
@@ -5682,6 +5683,7 @@ background-color:#ff8000
 }
 
 }
+
 
 
 
