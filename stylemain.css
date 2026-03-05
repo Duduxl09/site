@@ -5638,7 +5638,7 @@ background-color:#ff8000
   position:absolute;
   top:15px;
   right:15px;
-  width:110px;
+  width:150px;
   height:auto;
 }
 
@@ -5653,11 +5653,11 @@ background-color:#ff8000
 .titulos-mclaren{
   position:absolute;
   bottom:15px;
-  right:15px;
+  right:0px;
   display:grid;
   grid-template-columns: reeat(2, auto;
-  row--gap: 2px;
-  collumn-gap:5px;
+  row-gap: 2px;
+  column-gap:0;
   font-size: 10px;
 }
 
@@ -5665,7 +5665,7 @@ background-color:#ff8000
 .redes-banner-mclaren{
   position:absolute;
   bottom:15px;
-  margin-left:25px;
+  margin-left:15px;
   display:flex;
   gap:6px;
 }
@@ -5676,6 +5676,7 @@ background-color:#ff8000
 }
 
 }
+
 
 
 
