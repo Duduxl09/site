@@ -5638,7 +5638,7 @@ background-color:#ff8000
   top:15px;
   right:15px;
   widht:20px;
-  height:10px;
+  height: auto;
 }
 
 /* botão home abaixo da linha */
@@ -5654,7 +5654,6 @@ background-color:#ff8000
   bottom:15px;
   right:10px;
   display:grid;
-  grid-template-columns: repeat (2, auto);
   gap: 2px 0px;
   font-size: 10px;
 }
@@ -5663,7 +5662,7 @@ background-color:#ff8000
 .redes-banner-mclaren{
   position:absolute;
   bottom:15px;
-  margin-left:15px;
+  left:0px;
   display:flex;
   gap:6px;
 }
@@ -5674,6 +5673,7 @@ background-color:#ff8000
 }
 
 }
+
 
 
 
