@@ -1312,7 +1312,7 @@ max-widht: 90%;
 .redes-banner-mclaren {
   position: absolute;
   bottom: 5%;
-  right: -1100%;
+  right: 1100%;
   display: flex;
   gap: 10px;
 	z-index:20;
@@ -5611,6 +5611,7 @@ body.mclaren {
 background-color:#ff8000
 
 }
+
 
 
 
