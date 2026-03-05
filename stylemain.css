@@ -5630,7 +5630,7 @@ background-color:#ff8000
 
 /* linha do nome */
 .conteudo-mclaren h1::after{
-  margin-top:4px;
+  margin-top:34px;
 }
 
 /* logo ao lado do nome */
@@ -5655,7 +5655,7 @@ background-color:#ff8000
   bottom:15px;
   right:15px;
   display:grid;
-  grid-template-columns:auto auto;
+  grid-template-columns: reeat(2, auto;
   row--gap: 2px;
   collumn-gap:5px;
   font-size: 10px;
@@ -5676,6 +5676,7 @@ background-color:#ff8000
 }
 
 }
+
 
 
 
