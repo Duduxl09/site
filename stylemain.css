@@ -5654,13 +5654,11 @@ background-color:#ff8000
   position:absolute;
   bottom:15px;
   right:15px;
-
   display:grid;
   grid-template-columns:auto auto;
-
-  gap:3px 8px;
+  gap:2px 4px;
   font-size: 10px;
-}
+  line-height: 1.1;
 
 /* redes sociais */
 .redes-banner-mclaren{
@@ -5678,6 +5676,7 @@ background-color:#ff8000
 }
 
 }
+
 
 
 
