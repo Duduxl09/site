@@ -5701,7 +5701,7 @@ padding:10px;
 
 /* logo formula 1 grande */
 .logo-formula1{
-width:160px;
+width:360px;
 position:absolute;
 top:60px;
 right:10px;
@@ -5741,4 +5741,5 @@ width:32px;
 	.redes-f1 i{
   font-size: 20px;
 }
+
 
