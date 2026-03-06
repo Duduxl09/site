@@ -1308,7 +1308,7 @@ margin-left:20px;
   position: absolute;
   display: flex;
 	bottom:10px;
-	right:-1150px;
+	right:-1100px;
   flex-direction:row;
   gap: 8px;
   z-index:5;
@@ -5687,6 +5687,7 @@ height:auto;
 }
 
 }
+
 
 
 
