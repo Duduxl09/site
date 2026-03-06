@@ -5720,9 +5720,15 @@ margin-top:10px;
 
 /* menu das equipes */
 .menu{
-font-size:18px;
+font-size:30px;
 line-height:32px;
 }
+
+.Regras{
+	font-size:30px;
+}
+
+	
 
 /* redes sociais */
 .redes-f1{
@@ -5735,11 +5741,12 @@ gap:10px;
 }
 
 .redes-f1 img{
-width:32px;
+width:55px;
 }
 
 	.redes-f1 i{
-  font-size: 20px;
+  font-size: 40px;
 }
+
 
 
