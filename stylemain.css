@@ -5689,69 +5689,56 @@ height:auto;
 .redes-banner-mclaren i{
   font-size: 20px;
 }
-	
+
+}
+
+@media (max-width:768px){
+
+/* container geral */
 .container{
-    width: 100%;
-    padding: 10px;
+padding:10px;
 }
 
+/* logo formula 1 grande */
+.logo-formula1{
+width:160px;
+position:absolute;
+top:60px;
+right:10px;
+}
+
+/* logo pequena do topo */
 .logo-home{
-width:80px;
+width:60px;
 }
 
-.menu{
-flex-direction:column;
-}
-
+/* titulo formula 1 */
 .titulo-menu{
-  position:absolut;
-  top:60px;
-  left:15px;
-  font-size:22px;
-  white-space:nowrap;
+font-size:32px;
+margin-top:10px;
 }
 
-.logo-formula1 {
-  position:absolute;
-  top:40px;
-  right:15px;
-  width:70px;
-  height:auto;
+/* menu das equipes */
+.menu{
+font-size:18px;
+line-height:32px;
 }
 
-.botao-home{
-  position:absolute;
-  top:60px;
-  left:15px;
+/* redes sociais */
+.redes-f1{
+position:fixed;
+bottom:20px;
+right:20px;
+display:flex;
+flex-direction:row;
+gap:10px;
 }
 
-
-
-
-
-
-
-	
-	.redes-f1{
-  position:absolute;
-  bottom:10px;
-  right:-270px;
-  left:auto;
-  display:flex;
-  flex-direction:row;
-  gap:8px;
-  z-index:10000;
-}
-
-	
 .redes-f1 img{
-	widht:18px;
-height:auto;
+width:32px;
 }
 
-.redes-f1 i{
+	.redes-f1 i{
   font-size: 20px;
 }
-}
-
 
