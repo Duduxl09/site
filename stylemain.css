@@ -5672,7 +5672,7 @@ top:10%;
 right:10px;
 transform:translateY(-50%);
 display:flex;
-flex-direction:column;
+flex-direction:row;
 gap:6px;
 z-index:10;
 }
@@ -5683,6 +5683,7 @@ height:auto;
 }
 
 }
+
 
 
 
