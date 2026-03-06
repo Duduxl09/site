@@ -5695,10 +5695,6 @@ height:auto;
     padding: 10px;
 }
 
-.logo-formula1{
-width:120px;
-}
-
 .logo-home{
 width:80px;
 }
@@ -5708,9 +5704,26 @@ flex-direction:column;
 }
 
 .titulo-menu{
-font-size:20px;
+  position:absolut;
+  top:60px;
+  left:15px;
+  font-size:22px;
+  white-space:nowrap;
 }
 
+.logo-formula1 {
+  position:absolute;
+  top:40px;
+  right:15px;
+  width:70px;
+  height:auto;
+}
+
+.botao-home{
+  position:absolute;
+  top:60px;
+  left:15px;
+}
 
 
 
@@ -5740,4 +5753,5 @@ height:auto;
   font-size: 20px;
 }
 }
+
 
