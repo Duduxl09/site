@@ -5690,14 +5690,6 @@ height:auto;
   font-size: 20px;
 }
 	
-}
-
-
-
-
-
-@media (max-width: 768px) {
-
 .container{
     width: 100%;
     padding: 10px;
@@ -5705,6 +5697,14 @@ height:auto;
 
 
 
+
+
+
+
+
+
+
+	
 	.redes-f1{
   position:absolute;
   bottom:10px;
@@ -5726,79 +5726,3 @@ height:auto;
   font-size: 20px;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
