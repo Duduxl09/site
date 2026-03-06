@@ -5609,21 +5609,21 @@ background-color:#ff8000
 @media (max-width:768px){
 
 /* BANNER */
-.banner-mercedes{
+.banner-mercedes {
   position:relative;
   width:100%;
   height:auto;
 }
 
 /* IMAGEM DO CARRO */
-.bg-mercedes{
+.bg-mercedes {
   width:100%;
   height:auto;
   object-fit:contain;
 }
 
 /* NOME */
-.conteudo-mercedes h1{
+.conteudo-mercedes h1 {
   position:absolut;
   top:60px;
   left:15px;
@@ -5632,7 +5632,7 @@ background-color:#ff8000
 }
 
 /* LOGO ABAIXO DO NOME */
-.logo-mercedes{
+.logo-mercedes {
   position:absolute;
   top:40px;
   right:15px;
@@ -5834,6 +5834,7 @@ height:auto;
 }
 
 }
+
 
 
 
