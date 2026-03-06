@@ -5609,6 +5609,149 @@ background-color:#ff8000
 @media (max-width:768px){
 
 /* BANNER */
+.banner-mercedes{
+  position:relative;
+  width:100%;
+  height:auto;
+}
+
+/* IMAGEM DO CARRO */
+.bg-mercedes{
+  width:100%;
+  height:auto;
+  object-fit:contain;
+}
+
+/* NOME */
+.conteudo-mercedes h1{
+  position:absolut;
+  top:60px;
+  left:15px;
+  font-size:22px;
+  white-space:nowrap;
+}
+
+/* LOGO ABAIXO DO NOME */
+.logo-mercedes{
+  position:absolute;
+  top:40px;
+  right:15px;
+  width:70px;
+  height:auto;
+}
+
+/* LINHA HOVER */
+.banner-mercedes:hover h1::after{
+  top:35px;
+  left:15px;
+  width:100%;
+}
+
+/* BOTÃO HOME */
+.botao-home-mercedes{
+  position:absolute;
+  top:60px;
+  left:15px;
+}
+
+/* TÍTULOS */
+.titulos-mercedes{
+  position:absolute;
+  bottom:20px;
+  left:10px;
+
+  display:grid;
+  grid-template-columns: auto auuto;
+
+  font-size:14px;
+  gap:2px 6px;
+	text-align:left;
+}
+
+
+.redes-banner-mercedes{
+  position:absolute;
+  bottom:10px;
+  right:-270px;
+  left:auto;
+  display:flex;
+  flex-direction:row;
+  gap:8px;
+  z-index:10000;
+}
+
+	
+.redes-banner-mercedes img{
+	widht:18px;
+height:auto;
+}
+
+.redes-banner-mercedes i{
+  font-size: 20px;
+}
+
+}
+
+@media (max-width:768px){
+
+/* container geral */
+.container{
+padding:10px;
+}
+
+/* logo formula 1 grande */
+.logo-formula1{
+width:360px;
+position:absolute;
+top:60px;
+right:10px;
+}
+
+/* logo pequena do topo */
+.logo-home{
+width:60px;
+}
+
+/* titulo formula 1 */
+.titulo-menu{
+font-size:32px;
+margin-top:10px;
+}
+
+/* menu das equipes */
+.menu{
+font-size:30px;
+line-height:32px;
+}
+
+.Regras{
+	font-size:30px;
+}
+
+	
+
+/* redes sociais */
+.redes-f1{
+position:fixed;
+bottom:20px;
+right:20px;
+display:flex;
+flex-direction:row;
+gap:10px;
+}
+
+.redes-f1 img{
+width:55px;
+}
+
+	.redes-f1 i{
+  font-size: 40px;
+}
+}
+
+@media (max-width:768px){
+
+/* BANNER */
 .banner-mclaren{
   position:relative;
   width:100%;
@@ -5691,62 +5834,4 @@ height:auto;
 }
 
 }
-
-@media (max-width:768px){
-
-/* container geral */
-.container{
-padding:10px;
-}
-
-/* logo formula 1 grande */
-.logo-formula1{
-width:360px;
-position:absolute;
-top:60px;
-right:10px;
-}
-
-/* logo pequena do topo */
-.logo-home{
-width:60px;
-}
-
-/* titulo formula 1 */
-.titulo-menu{
-font-size:32px;
-margin-top:10px;
-}
-
-/* menu das equipes */
-.menu{
-font-size:30px;
-line-height:32px;
-}
-
-.Regras{
-	font-size:30px;
-}
-
-	
-
-/* redes sociais */
-.redes-f1{
-position:fixed;
-bottom:20px;
-right:20px;
-display:flex;
-flex-direction:row;
-gap:10px;
-}
-
-.redes-f1 img{
-width:55px;
-}
-
-	.redes-f1 i{
-  font-size: 40px;
-}
-
-
 
