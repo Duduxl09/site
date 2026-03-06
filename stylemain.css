@@ -5689,9 +5689,23 @@ height:auto;
 .redes-banner-mclaren i{
   font-size: 20px;
 }
+	
+}
 
 
-.redes-f1{
+
+
+
+@media (max-width: 768px) {
+
+.container{
+    width: 100%;
+    padding: 10px;
+}
+
+
+
+	.redes-f1{
   position:absolute;
   bottom:10px;
   right:-270px;
@@ -5711,23 +5725,8 @@ height:auto;
 .redes-f1 i{
   font-size: 20px;
 }
-	
 }
 
-
-	
-}
-
-
-
-@media (max-width: 768px) {
-
-.container{
-    width: 100%;
-    padding: 10px;
-}
-
-}
 
 
 
