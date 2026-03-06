@@ -5749,9 +5749,90 @@ height:auto;
   font-size: 20px;
 }
 
+
+
+.banner-mercedes{
+position: relative;
+width: 100%;
+height: auto;
+overflow: hidden;
 }
 
+.bg-mercedes{
+width: 100%;
+height: auto;
+object-fit: contain;
+}
 
+/* nome da equipe */
+.conteudo-mercedes h1{
+position: absolute;
+top: 15px;
+left: 15px;
+font-size: 28px;
+color: #00d2be;
+white-space: nowrap;
+}
 
+/* linha hover */
+.conteudo-mercedes h1::after{
+content: "";
+position: absolute;
+left: 0;
+bottom: -8px;
+width: 0;
+height: 3px;
+background: #00d2be;
+transition: 0.3s;
+}
+
+.banner-mercedes:hover h1::after{
+width: 100%;
+}
+
+/* logo */
+.logo-mercedes{
+position: absolute;
+top: 15px;
+right: 15px;
+width: 110px;
+}
+
+/* botão home */
+.botao-home{
+position: absolute;
+top: 70px;
+left: 15px;
+}
+
+/* títulos */
+.titulos-mercedes{
+position: absolute;
+bottom: 20px;
+left: 15px;
+display: grid;
+grid-template-columns: auto auto;
+gap: 5px 15px;
+font-size: 18px;
+}
+
+/* redes */
+.redes-banner-mercedes{
+position: absolute;
+bottom: 20px;
+right: 15px;
+display: flex;
+flex-direction: row;
+gap: 10px;
+}
+
+.redes-banner-mercedes img{
+width: 18px;
+	height:auto;
+}
+.redes-banner-mclaren i{
+  font-size: 20px;
+	}
+}
 
 
