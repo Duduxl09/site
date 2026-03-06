@@ -5672,7 +5672,7 @@ background-color:#ff8000
 .redes-banner-mclaren{
   position:absolute;
   bottom:10px;
-  right:-200px;
+  right:-250px;
   left:auto;
   display:flex;
   flex-direction:row;
@@ -5682,11 +5682,16 @@ background-color:#ff8000
 
 	
 .redes-banner-mclaren img{
-width:7px;
+width:10px;
 height:auto;
 }
 
+.redes-banner-mclaren i{
+  font-size:10px;
 }
+	
+}
+
 
 
 
