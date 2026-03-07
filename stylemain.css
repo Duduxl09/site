@@ -5758,7 +5758,7 @@ height:auto;
 .banner-mercedes{
   position:relative;
   width:100%;
-  min-height:300px;
+  height:auto;
 }
 
 .bg-mercedes{
@@ -5835,6 +5835,7 @@ height:auto;
 
 }
 	
+
 
 
 
