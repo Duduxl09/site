@@ -5760,9 +5760,14 @@ height:auto;
   height:auto;
 }
 
-
+.bg-mercedes{
+  width:100%;
+  height:auto;
+  object-fit:contain;
+}
 
 
 }
 	
+
 
