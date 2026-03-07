@@ -5761,7 +5761,6 @@ overflow: hidden;
 .bg-mercedes{
 width: 100%;
 height: auto;
-object-fit: contain;
 }
 
 /* nome da equipe */
@@ -5830,9 +5829,10 @@ gap: 10px;
 width: 18px;
 	height:auto;
 }
-.redes-banner-mclaren i{
+.redes-banner-mercedes i{
   font-size: 20px;
 	}
 }
+
 
 
