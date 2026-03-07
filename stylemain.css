@@ -5605,8 +5605,9 @@ background-color:#ff8000
 
 }
 
-  
-
+.body bgcolor{
+background-color:#c0c0c0 
+}
 
 @media (max-width:768px){
 
@@ -5769,6 +5770,7 @@ height:auto;
 
 }
 	
+
 
 
 
