@@ -5766,10 +5766,76 @@ height:auto;
   height:auto;
   object-fit:contain;
 }
+.conteudo-mercedes h1{
+  position:absolut;
+  top:60px;
+  left:15px;
+  font-size:22px;
+  white-space:nowrap;
+}
 
+/* LOGO ABAIXO DO NOME */
+.logo-mercedes{
+  position:absolute;
+  top:40px;
+  right:15px;
+  width:70px;
+  height:auto;
+}
+
+/* LINHA HOVER */
+.banner-mercedes:hover h1::after{
+  top:35px;
+  left:15px;
+  width:100%;
+}
+
+/* BOTÃO HOME */
+.botao-home-mercedes{
+  position:absolute;
+	top:40px;
+  left:15px;
+}
+
+/* TÍTULOS */
+.titulos-mercedes{
+  position:absolute;
+  bottom:20px;
+  left:10px;
+
+  display:grid;
+  grid-template-columns: auto auuto;
+
+  font-size:14px;
+  gap:2px 6px;
+	text-align:left;
+}
+
+
+.redes-banner-mercedes{
+  position:absolute;
+  bottom:10px;
+  right:-270px;
+  left:auto;
+  display:flex;
+  flex-direction:row;
+  gap:8px;
+  z-index:10000;
+}
+
+	
+.redes-banner-mercedes img{
+	widht:18px;
+height:auto;
+}
+
+.redes-banner-mercedes i{
+  font-size: 20px;
+}
 
 }
 	
+
 
 
 
